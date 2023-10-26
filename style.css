@@ -1,0 +1,25 @@
+body{
+    background-color: #7700b3c9;
+}
+
+.container{
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 5px 7px rgba(0.5, 0.3, 0.2, 0.4);
+    margin: 50px 350px;
+    padding: 0;
+    background-color: #ff00bf53;
+    color: #f5f3f4;
+    border-radius: 20px;
+}
+
+form{
+    margin-left: 12px;
+    padding: 0.5rem;
+}
+
+form h3{
+    color: #333;
+}

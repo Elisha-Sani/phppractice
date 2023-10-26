@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Custom Link-->
+    <link rel="stylesheet" href="style.css">
+
+    <title>login</title>
+</head>
+<body>
+    <img src="" alt="">
+    <div class="container">
+        
+
+        <form method="post" action="loginaction.php">
+            <h1>Login</h1>
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for ="user_type">User</label><br>
+            <select id="user_type" name="user_type" required><br>
+                <option value="student">Student</option>
+                <option value="worker">Worker</option>
+            </select><br>
+
+            <input type = "submit" id="submit" name="submit">
+
+            <h3>Don't have an account? <a href="signup.php">Sign up</a></h3>
+        </form>
+    </div>
+</body>
+</html>
